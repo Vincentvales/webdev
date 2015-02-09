@@ -1,0 +1,8 @@
+div {
+    border:1px solid rgba(0,0,0,0.1);
+    background: #9C9C9C;
+    text-align:center;
+}
+.container-fluid, .container, .row{
+    background: #525252;
+}

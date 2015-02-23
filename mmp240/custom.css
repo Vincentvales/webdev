@@ -1,8 +1,27 @@
 div {
-    border:1px solid rgba(0,0,0,0.1);
-    background: #9C9C9C;
+    
+    /*background-color: white;*/
     text-align:center;
 }
-.container-fluid, .container, .row{
-    background: #525252;
+.container{
+    margin:20px;
+
+ }
+body {
+    background-image: url("images/gotham.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Libre Baskerville', serif;
+    color: #ffffff;
+}
+.col-md-6{
+	font-size: 35px;
+   width:100%;
+  text-align: center;
+  margin-top: 40px;
+
+}
+
+.col-md-4{
+	margin-top: 40px;
 }

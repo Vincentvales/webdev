@@ -18,20 +18,23 @@
     margin-top: 45%;
 }
 #featured_1 {
-    background-color: #F4D03F;
+    background-image: url(img/featuredimages/1_feature.jpg);
 }
-
-
 #featured_2 {
-     background-image: url(images/lic.jpg);
+    background-image: url(img/featuredimages/2_feature.jpg);
+}
+#featured_3 {
+    background-image: url(img/featuredimages/3_feature.jpg);
 }
 #featured_4 {
-  background-color: #1BBC9B;  
+    background-image: url(img/featuredimages/4_feature.jpg);
+}
+#featured_5 {
+    background-image: url(img/featuredimages/5_feature.jpg)
 }
 
-
 footer{
-    background-color: #6C7A89;
+    background-color: #EEEEEE;
     /* overwrite default margin, so there won't be two white bars above and below footer */
     margin: 0;
     /* more breathing room for the footer */
@@ -42,8 +45,7 @@ footer h6{
     font-family: "helvetica neue";
     /* thinner font weight to match the delicate visual style and subtle background color */
     font-weight: 300;
-    color: #ECECEC;
-    font-size: 3em;
+    color: #4c4c4c;
 }
 
 /* navbar default controls background color of navbar, and positioning of navbar */
@@ -68,6 +70,7 @@ footer h6{
 
 .intro {
     height: 140vh;
+    background-color: #353535;
 }
 
 h1{
@@ -127,11 +130,8 @@ h3{
     }
 }
 
-.logosize {
-    width:200px;
-    height:100px;
-}
 
-navbar-nav ul a:hover{
-    color:red;
-}
+
+
+
+

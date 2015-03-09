@@ -1,0 +1,231 @@
+.background-img {
+    /* make sure the background image's div is the same height as viewport */
+    
+    height: 100vh;
+    /* make sure the image is stretched out to cover the whole viewport */
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* make sure when the viewport resizes to a smaller size, the image is still centered, as opposed to anchored on the upper left corner */
+    
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#intro #intro-text {
+    margin-top: 45%;
+}
+
+#featured_1 {
+    background-image: url(img/featuredimages/1_feature.jpg);
+}
+
+#featured_2 {
+    background-image: url(img/featuredimages/2_feature.jpg);
+}
+
+#featured_3 {
+    background-image: url(img/featuredimages/3_feature.jpg);
+}
+
+#featured_4 {
+    background-image: url(img/featuredimages/4_feature.jpg);
+}
+
+#featured_5 {
+    background-image: url(img/featuredimages/5_feature.jpg)
+}
+
+footer {
+    background-color: #EEEEEE;
+    /* overwrite default margin, so there won't be two white bars above and below footer */
+    
+    margin: 0;
+    /* more breathing room for the footer */
+    
+    padding: 20% 0;
+}
+
+footer h6 {
+    font-family: "helvetica neue";
+    /* thinner font weight to match the delicate visual style and subtle background color */
+    
+    font-weight: 300;
+    color: #4c4c4c;
+}
+/* navbar default controls background color of navbar, and positioning of navbar */
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    margin: 2em 10em;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: 200;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 0.7em;
+    color: white;
+    padding: 0 3px;
+    margin: 15px 3px;
+    border: solid 1px white;
+}
+
+.intro {
+    /*height: 140vh;*/
+    
+    background-color: #353535;
+}
+
+h1 {
+    color: #A9A9A9;
+    /*margin-top: 35%;*/
+}
+
+h2 {
+    color: #A9A9A9;
+    /* margin-top: 5%;*/
+}
+
+h3 {
+    color: #A9A9A9;
+}
+
+#tagline h1 {
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
+
+#founder {
+    background-color: white;
+}
+
+#founder>div:first-child {
+    margin-top: 20%;
+}
+
+#founder>div:nth-child(2) {
+    margin-bottom: 20%;
+}
+
+#featured {
+    background-color: white;
+    margin-top: 20%;
+    margin-bottom: 30%;
+}
+
+#featured-gallery > div {
+    height: 40vh;
+    /* background:yellow; */
+    
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 0;
+    display: table-cell;
+    vertical-align: bottom;
+    padding: 0;
+}
+#video h2{
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
+
+#work h4{
+    background-color: black;
+    color: white;
+    padding: 5em 1em;
+}
+
+#work nav{
+    background-color: black;
+    margin: 0;
+}
+
+#work img{
+    width: 100%;
+}
+#work #twocolumngallery{
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+
+#work #twocolumngallery>div>div{
+    padding:5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#work .bg-ivory{
+    background-color: rgb(238, 238, 238);   
+}
+
+#work .bg-orange{
+    background-color: rgb(246, 61, 18); 
+}
+
+#work .bg-brown{
+    background-color: rgba(83, 71, 63, 0.3);    
+}
+
+/* for device that's narrower than 767.9 px, amend previous css with the additional code below */
+@media (max-width: 767.999999px) { 
+    .navbar-default {
+/*        margin: 2em !important;*/
+    }
+
+    h1{
+        font-size: 1.6em;
+        margin-top: 60%;
+    }
+
+    h3{
+        font-size: 1.2em;
+        margin-top: 30%;
+    }
+
+    #founder img{
+        margin-top: 40%;
+    }
+}
+
+
+
+
+/* for device that's narrower than 767.9 px, amend previous css with the additional code below */
+
+@media (max-width: 767.999999px) {
+    .navbar-default {
+        margin: 2em !important;
+    }
+    h1 {
+        font-size: 1.6em;
+        margin-top: 60%;
+    }
+    h3 {
+        font-size: 1.2em;
+        margin-top: 30%;
+    }
+    #founder img {
+        margin-top: 40%;
+    }
+    #founder {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    #featured-gallery > div{
+    padding-right:0;
+    padding-left:0;
+    }
+    #featured{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+     #video h2{
+        font-size: 1.5em;
+    }
+}

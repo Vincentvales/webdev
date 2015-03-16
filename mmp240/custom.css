@@ -20,7 +20,7 @@
 #featured_1 {
     background-color: #F4D03F;
 }
-
+    
 
 #featured_2 {
      background-image: url(images/lic.jpg);
@@ -28,8 +28,9 @@
 #featured_4 {
   background-color: #1BBC9B;  
 }
-
-
+#featured_6 {
+    background-color: #07226B;
+}
 footer{
     background-color: #6C7A89;
     /* overwrite default margin, so there won't be two white bars above and below footer */
@@ -132,6 +133,74 @@ h3{
     height:100px;
 }
 
+
 navbar-nav ul a:hover{
     color:red;
+}
+
+#header h1{
+    text-align: center;
+    margin-top: 0em;
+   color: #050505;
+ font-family:serif;
+ font-size: 5em;   
+}
+#text-info{
+font-size: 1em;
+}
+
+#header{
+background-color:#fff;
+margin-top: 15em;    
+padding:5em;
+}
+
+#work-1{
+height: 800px;
+width: 700px;
+margin-left: 4em;
+margin-top: 3em;
+}
+#work-2{
+height: 800px;
+width: 700px;
+margin-top: 3em;
+}
+
+#work #twocolumnlayout img:hover {
+    opacity: 0.3;
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+} 
+
+#work #twocolumnlayout img {
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+} 
+
+#work .bg-ivory {
+    background-color: #EEEEEE;
+    position: relative;
+}
+
+#work .bg-orange {
+    background-color: #F63D12;
+    position: relative;
+}
+
+#work .bg-brown {
+    background-color: rgba(83, 71, 63, 0.29);
+    position: relative;
+}
+
+#work .hide-title > h5 {
+    color: black;
+    opacity: 0;
+    position: absolute;
+    left: 38%;
+    top: 45%;
 }

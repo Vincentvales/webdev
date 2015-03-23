@@ -24,6 +24,10 @@
 
 #featured_2 {
      background-image: url(images/lic.jpg);
+     width: 1900px;
+}
+#featured_3{
+    background-color: #F76D7B;
 }
 #featured_4 {
   background-color: #1BBC9B;  
@@ -146,61 +150,53 @@ navbar-nav ul a:hover{
  font-size: 5em;   
 }
 #text-info{
-font-size: 1em;
+font-size: 2em;
+
 }
 
 #header{
 background-color:#fff;
-margin-top: 15em;    
-padding:5em;
+margin-top: 10em;    
 }
 
 #work-1{
 height: 800px;
-width: 700px;
+width:700px;
 margin-left: 4em;
 margin-top: 3em;
 }
-#work-2{
-height: 800px;
-width: 700px;
-margin-top: 3em;
-}
-
-#work #twocolumnlayout img:hover {
-    opacity: 0.3;
-    -webkit-filter: blur(3px);
-    -moz-filter: blur(3px);
-    -o-filter: blur(3px);
-    -ms-filter: blur(3px);
-    filter: blur(3px);
-} 
-
-#work #twocolumnlayout img {
+#work-1 #twocolumngallery>div>div>img:{
     transition: 0.5s;
     transition-timing-function: ease-in-out;
     -webkit-transition-timing-function: ease-in-out;
-} 
-
-#work .bg-ivory {
-    background-color: #EEEEEE;
-    position: relative;
 }
 
-#work .bg-orange {
-    background-color: #F63D12;
-    position: relative;
+
+#work-1 #twocolumngallery>div>div>img:hover{
+ opacity: 0.3;
+ -webkit-filter:blur(2px);
+ -moz-filter:blur(2px);
+ -o-filter:blur(2px);
+-ms-filter:blur(2px);
+ filter:blur(2px);    
+}
+#map{
+margin-top: 10em;   
+margin-bottom: 10em;
+margin-left: 5em;
 }
 
-#work .bg-brown {
-    background-color: rgba(83, 71, 63, 0.29);
-    position: relative;
+#column_img {
+    background-color: #07226B;
 }
-
-#work .hide-title > h5 {
-    color: black;
-    opacity: 0;
-    position: absolute;
-    left: 38%;
-    top: 45%;
+#fbicon{
+margin-top: 3em;
+padding-right: 1em;
+}
+#twicon{
+margin-top: 3em;
+padding-left: 1em;
+}
+#emicon{
+margin-left: 15em;
 }

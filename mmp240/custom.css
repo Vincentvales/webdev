@@ -18,23 +18,34 @@
     margin-top: 45%;
 }
 #featured_1 {
-    background-color: #F4D03F;
+     background-image: url(images/lic.jpg);
+    
 }
     
 
-#featured_2 {
-     background-image: url(images/lic.jpg);
-     width: 1900px;
-}
+
 #featured_3{
     background-color: #F76D7B;
 }
 #featured_4 {
+    
   background-color: #1BBC9B;  
 }
 #featured_6 {
-    background-color: #07226B;
+    background-color: #6D6E68;
 }
+
+.color-container{
+    background-color: #EAF589;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 3em;
+}
+
+.color-container h1{
+    padding: 10px;
+}
+    
 footer{
     background-color: #6C7A89;
     /* overwrite default margin, so there won't be two white bars above and below footer */
@@ -155,7 +166,6 @@ font-size: 2em;
 }
 
 #header{
-background-color:#fff;
 margin-top: 10em;    
 }
 
@@ -165,20 +175,7 @@ width:700px;
 margin-left: 4em;
 margin-top: 3em;
 }
-#work-1 #twocolumngallery>div>div>img:{
-    transition: 0.5s;
-    transition-timing-function: ease-in-out;
-    -webkit-transition-timing-function: ease-in-out;
-}
 
-
-#work-1 #twocolumngallery>div>div>img:hover{
- opacity: 0.3;
- -webkit-filter:blur(2px);
- -moz-filter:blur(2px);
- -o-filter:blur(2px);
--ms-filter:blur(2px);
- filter:blur(2px);    
 }
 #map{
 margin-top: 10em;   
@@ -186,9 +183,7 @@ margin-bottom: 10em;
 margin-left: 5em;
 }
 
-#column_img {
-    background-color: #07226B;
-}
+
 #fbicon{
 margin-top: 3em;
 padding-right: 1em;
@@ -199,4 +194,52 @@ padding-left: 1em;
 }
 #emicon{
 margin-left: 15em;
+}
+
+ #twocolumnlayout img:hover {
+opacity: 0.3;
+-webkit-filter: blur(3px);
+-moz-filter: blur(3px);
+-o-filter: blur(3px);
+-ms-filter: blur(3px);
+filter: blur(3px);
+}
+
+/* Now,let's add some trasition timing effect, so the transition is not so abrupt */
+ #twocolumnlayout img {
+transition: 0.5s;
+transition-timing-function: ease-in-out;
+-webkit-transition-timing-function: ease-in-out;
+/* Safari */
+}
+
+ .hide-title>h5{
+  /*positon: absolute;
+  color: black;
+  left: 38%;
+  top: 45%;*/
+   color: black;
+    opacity: 0;
+    position: absolute;
+    left: 38%;
+    top: 45%;
+}
+
+
+
+
+
+.bg-blue {background-color: #a7c8db;
+padding: 2em;
+margin-top: 1em;}
+
+.bg-Gray {
+  background-color: #D4D4D4;
+  padding: 2em;
+  margin-top: 1em;
+
+} 
+
+#social media{
+    background color : red;
 }

@@ -14,13 +14,13 @@
     <!-- custom css -->
     <link rel="stylesheet" href="custom.css">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <link rel="javascript" href="custom.js">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <!-- Scrollr.js a jquery library that makes one-page scrolldown design easier to implement-->
     <script src="lib/skrollr.min.js"></script>
-</head>
+    <link rel="javascript" href="custom.js">
+    </head>
 
 <body>
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -43,7 +43,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.html">HOME</a>
                     </li>
-                    <li><a href="about.html">ABOUT</a>
+                    <li><a href="about.html">PORTFOLIO</a>
                     </li>
                     <li><a href="contact.html">CONTACT</a>
                     </li>
@@ -53,11 +53,44 @@
         
         <div class="container-fluid"> 
         <div class="row intro" id="featured_3">
-            <div class="col-md-12">
+        <div class="row">
+            <div class="col-xs-12 col-xs-offset-0" id="twocolumnlayout">
+                <div class="col-xs-12 col-xs-offset-0 col-sm-5 col-sm-offset-1">
+                    <div class="bg-Gray">
+                        <img class="img-responsive" src="images/nyc.jpg">
+
+                    </div>
+                    <div class="bg-yellow">
+                        <img class="img-responsive" src="images/citi.jpg">
+                    </div>
+                    <div class="bg-Gray">
+                        <img class="img-responsive" src="images/wash.jpg">
+                    </div>
+                <div class="bg-yellow">
+                        <img class="img-responsive" src="images/ast.jpg">
+                    </div>
+                
+                </div>
+                <div class="col-xs-12 col-xs-offset-0 col-sm-5 col-sm-offset-0">
+                    <div class="bg-Gray">
+                        <img class="img-responsive" src="images/flush.jpg">
+                    </div>
+
+                    <div class="bg-yellow">
+                        <img class="img-responsive" src="images/high.jpg">
+                    </div>
+                    <div class="bg-Gray">
+                        <img class="img-responsive" src="images/seven.jpg">
+                    </div>
+                </div>
             </div>
-        </div>
+        </div>           
+    </div>
+         <div class="row intro" id="featured_2">
+        <div class="row">
         
-        
+             </div>
+             </div>
         </div>       
     </body> 
 </html>

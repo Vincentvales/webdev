@@ -166,7 +166,7 @@ font-size: 2em;
 #text-dex{
 margin-top: 2em;
 font-family: serif;
-font-size: 3em;
+font-size: 5em;
 color: #fff;    
 }
 #header{
@@ -194,7 +194,7 @@ margin-left: 15em;
 }
 
 #profile{
-width:500px;
+width:800px;
 margin-left: 55em;
 margin-top: 8em;    
 }
